@@ -2,9 +2,9 @@
 
 **Pantheon** is a high-performance Python framework designed for building, testing, and debugging **ultra-low-latency systems** in high-frequency trading (HFT), real-time analytics, and low-level systems research.
 
-> Prototype in Python → Deploy in Rust
+Prototype in Python → Deploy in Rust
 
----
+
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Pantheon provides a Pythonic interface for:
 - Rapidly iterating on algorithms, signal detection, TTL filters, and queue logic
 - Testing architecture plans (e.g. NemesisQ, Aura) before committing to Rust
 
----
+
 
 ## Philosophy
 
@@ -23,7 +23,7 @@ Pantheon provides a Pythonic interface for:
 - **Memory-First**: Struct-of-Arrays, cache-aligned layouts, and packed binary formats
 - **Minimal Abstractions**: No bloated libraries—just performance-focused primitives
 
----
+
 
 ## Features
 
